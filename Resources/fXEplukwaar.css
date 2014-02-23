@@ -1,0 +1,470 @@
+div.boom { 
+  width: 312px;
+  background-color: #ECDFCC;
+  font-family: Arial, Helvetica, sans-serif;
+  overflow: hidden;
+}
+div.boom h3, div.legenda h3, table[data-ac-wname="legenda_box"] h3 {
+  color: #ffffff;
+  background-color: #A81534;
+  padding: 5px 10px 5px 10px;
+  margin: 0px 0px 0px 0px;
+  font-size: 18px;
+  font-weight: normal;
+  background-image: linear-gradient(top, rgb(194,91,113) 0%, rgb(168,21,52) 100%);
+  background-image: -o-linear-gradient(top, rgb(194,91,113) 0%, rgb(168,21,52) 100%);
+  background-image: -moz-linear-gradient(top, rgb(194,91,113) 0%, rgb(168,21,52) 100%);
+  background-image: -webkit-linear-gradient(top, rgb(194,91,113) 0%, rgb(168,21,52) 100%);
+  background-image: -ms-linear-gradient(top, rgb(194,91,113) 0%, rgb(168,21,52) 100%);
+  background-image: -webkit-gradient(
+      linear,
+      left top,
+      left bottom,
+      color-stop(0, rgb(194,91,113)),
+      color-stop(1, rgb(168,21,52))
+  );  
+}
+div.boom table {
+  margin-bottom: 0px;
+  border-spacing: 0px;
+  border-collapse: collapse;
+  width: 100%;
+}
+div.boom tr {
+  margin: 0;
+  border-bottom: 1px solid #F1E7D9;
+}
+div.boom tr:last-child {
+  border-bottom: none;
+}
+div.boom td {
+  padding: 3px 10px 3px 10px;
+  vertical-align: top;
+  font-size: 13px;
+  line-height: 140%;
+}
+div.boom td.label {
+  width: 90px;
+  color: #FAF7F2;
+  background-color: #CFAF80;
+}
+div.boom p {
+  margin: 0;
+  font-size: 12px;
+  line-height: 150%;
+}
+div.boom a, table.lijst-entry a {
+  color: #A81534;
+  text-decoration: none;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 13px;
+}
+div.boom a:hover, table.lijst-entry a:hover {
+  text-decoration: underline;
+}
+div.boom table.kalender {
+  margin-bottom: 1px;
+}
+table.kalender tr {
+  border-bottom: none;
+}
+table.kalender td {
+  width: 16%;
+  padding: 2px 0px 2px 0px;
+  border: 2px solid #ECDFCC;
+  text-align: center;
+  background-color: #E2CFB2;
+  color: #FAF7F2;
+}
+table.kalender td.rijp {
+  background-color: #B12C48;
+}
+table.afb {
+  background-color: #E2CFB2;
+  margin: 0px 0px 0px 0px;
+  background-image: linear-gradient(top, rgb(226,207,178) 0%, rgb(245,239,230) 100%);
+  background-image: -o-linear-gradient(top, rgb(226,207,178) 0%, rgb(245,239,230) 100%);
+  background-image: -moz-linear-gradient(top, rgb(226,207,178) 0%, rgb(245,239,230) 100%);
+  background-image: -webkit-linear-gradient(top, rgb(226,207,178) 0%, rgb(245,239,230) 100%);
+  background-image: -ms-linear-gradient(top, rgb(226,207,178) 0%, rgb(245,239,230) 100%);
+  background-image: -webkit-gradient(
+      linear,
+      left top,
+      left bottom,
+      color-stop(0, rgb(226,207,178)),
+      color-stop(1, rgb(245,239,230))
+  );
+}
+table.afb tr {
+  border: none;
+}
+table.afb td {
+  width: 50%;
+  padding: 12px 0px 0px 9px;
+}
+table.afb td:first-child {
+  padding-left: 18px;
+}
+table.afb img {
+  border: 1px solid #CFAF80;
+  margin: 0px;
+  position: relative;
+  top: 4px;
+  cursor: pointer;
+}
+table.afb img:hover {
+  border: 1px solid #A81534;
+}
+
+.bibNav .m-ui-btn-up-d {
+  border: none;
+}
+.bibNav .m-ui-btn-active-d {
+  border: none;
+  text-shadow: none;
+  color: #FBF3F5;
+  
+  background-image: linear-gradient(top, rgb(194,91,114) 0%, rgb(168,21,53) 100%);
+  background-image: -o-linear-gradient(top, rgb(194,91,114) 0%, rgb(168,21,53) 100%);
+  background-image: -moz-linear-gradient(top, rgb(194,91,114) 0%, rgb(168,21,53) 100%);
+  background-image: -webkit-linear-gradient(top, rgb(194,91,114) 0%, rgb(168,21,53) 100%);
+  background-image: -ms-linear-gradient(top, rgb(194,91,114) 0%, rgb(168,21,53) 100%);
+  
+  background-image: -webkit-gradient(
+      linear,
+      left top,
+      left bottom,
+      color-stop(0, rgb(194,91,114)),
+      color-stop(1, rgb(168,21,53))
+  );
+}
+.bibNav .m-ui-corner-left, .bibNav .m-ui-corner-right {
+  border-radius: 0px;
+}
+.gm-style-iw {
+  top: 1px !important;
+  left: 1px !important;
+  width: 312px !important;
+  padding-bottom: 16px;
+  background-color: #F5EFE6;
+  border-radius: 1px;
+  box-shadow: 2px 2px 16px 4px #222222;
+}
+
+table[data-ac-wname="imgBiB"], table[data-ac-wname="panelKaart"], table[data-ac-wname="panelLijst"], table[data-ac-wname="panelInfo"] {
+  /*position: fixed !important; */
+}
+div[data-ac-wname="barBottom"], table[data-ac-wname="barBottom"] {
+  border-top-left-radius: 16px !important;
+  border-top-right-radius: 16px !important;
+  background-image: linear-gradient(top, #ffffff 0%, #F1E7D9 100%);
+  background-image: -o-linear-gradient(top, #ffffff 0%, #F1E7D9 100%);
+  background-image: -moz-linear-gradient(top, #ffffff 0%, #F1E7D9 100%);
+  background-image: -webkit-linear-gradient(top, #ffffff 0%, #F1E7D9 100%);
+  background-image: -ms-linear-gradient(top, #ffffff 0%, #F1E7D9 100%);
+  background-image: -webkit-gradient(
+      linear,
+      left top,
+      left bottom,
+      color-stop(0, #ffffff),
+      color-stop(1, #F1E7D9)
+  );
+}
+div[data-ac-wname="barTop"], table[data-ac-wname="barTop"] {
+  background-image: linear-gradient(top, rgb(194,91,114) 0%, rgb(168,21,53) 100%);
+  background-image: -o-linear-gradient(top, rgb(194,91,114) 0%, rgb(168,21,53) 100%);
+  background-image: -moz-linear-gradient(top, rgb(194,91,114) 0%, rgb(168,21,53) 100%);
+  background-image: -webkit-linear-gradient(top, rgb(194,91,114) 0%, rgb(168,21,53) 100%);
+  background-image: -ms-linear-gradient(top, rgb(194,91,114) 0%, rgb(168,21,53) 100%);
+  
+  background-image: -webkit-gradient(
+      linear,
+      left top,
+      left bottom,
+      color-stop(0, rgb(194,91,114)),
+      color-stop(1, rgb(168,21,53))
+  );
+}
+
+div.legenda, table[data-ac-wname="legenda_box"] {
+  margin: 0px 0px 0px 0px;
+  font-family: Arial, Helvetica, sans-serif;
+  background-image: linear-gradient(top, rgb(221,199,166) 0%, rgb(241, 231, 217) 100%);
+  background-image: -o-linear-gradient(top, rgb(221,199,166) 0%, rgb(241, 231, 217) 100%);
+  background-image: -moz-linear-gradient(top, rgb(221,199,166) 0%, rgb(241, 231, 217) 100%);
+  background-image: -webkit-linear-gradient(top, rgb(221,199,166) 0%, rgb(241, 231, 217) 100%);
+  background-image: -ms-linear-gradient(top, rgb(221,199,166) 0%, rgb(241, 231, 217) 100%);
+  background-image: -webkit-gradient(
+      linear,
+      left top,
+      left bottom,
+      color-stop(0, rgb(221,199,166)),
+      color-stop(1, rgb(241,231,217))
+  );
+}
+div.legenda h3, table[data-ac-wname="legenda_box"] h3 {
+  border-top-left-radius: 15px;
+  border-top-right-radius: 15px;
+}
+table[data-ac-wname="legenda_box"] {
+  overflow-y: auto !important;
+}
+table#legenda {
+  margin: 0px;
+  border-spacing: 0px;
+  border-collapse: collapse !important;
+  width: 100%;
+}
+table#legenda tr {
+  margin: 0px;
+  border-bottom: 1px solid #F5EFE6;
+}
+table#legenda tr:last-child {
+  border-bottom: none;
+  border-bottom-left-radius: 16px;
+  border-bottom-right-radius: 16px;
+}
+table#legenda tr:last-child td:first-child {
+  border-bottom-left-radius: 16px;
+}
+table#legenda td {
+  padding: 2px 6px 2px 10px;
+  font-size: 14px;
+}
+table#legenda tr td:first-child {
+  background-color: #D9BF99;
+  width: 32px;
+  padding: 2px 10px 2px 16px;
+}
+span#legend_close {
+  float: right;
+  cursor: pointer;
+  font-size: 16px;
+  opacity: 0.5;
+  position: relative;
+  top: 2px;
+  left: -2px
+}
+span#legend_close:hover {
+  opacity: 0.8;
+}
+
+table[data-ac-wname="pageLijst"] {
+  overflow-y: auto !important;
+}
+table[data-ac-wname="pageInfo"] {
+  overflow-y: auto !important;
+}
+
+h3.lijst, table.bomenlijst td, table.bomenlijst h4, table.bomenlijst p { margin: 0 }
+table.bomenlijst {
+  width: 100%;
+}
+table.bomenlijst tr.color:nth-child(odd) {
+  background-color: #F1E7D9;
+}
+table.bomenlijst td {
+  font-size: 13px;
+  font-family: Arial, Helvetica, sans-serif;
+  padding: 4px 12px 4px 4px;
+  vertical-align: top;
+  border: 1px solid #FAF7F2;
+}
+table.lijst-entry tr { 
+  border-bottom: none;
+}
+table.lijst-entry td {
+  border: none;
+}
+table.bomenlijst h4 {
+  font-size: 16px;
+  color: #A81534;
+  font-weight: bold;
+  line-height: 120%;
+}
+table.lijst-entry p {
+  line-height: 140%;
+}
+table.bomenlijst p.label {
+  color: #C59F66;
+  line-height: 100%;
+  font-size: 11px;
+  margin-top: 10px;
+}
+h3.lijst {
+  margin: 48px 0px 8px 8px;
+  font-size: 20px;
+}
+img.lijst {
+  background-color: #D9BF99;
+}
+img#imgLarge {
+  box-shadow: 0px 1px 20px 4px #aaaaaa;
+}
+
+div.info h3, td.info h3 {
+  color: #F5EFE6;
+  font-size: 20px;
+  margin: 36px 0px 8px -24px;
+  font-weight: normal;
+}
+div.info h3:first-child, td.info h3:first-child {
+  margin-top: 16px;
+}
+div.info h3 span, td.info h3 span {
+  background-color: #A1951B;
+  padding: 2px 24px 2px 48px;
+  border-top-right-radius: 16px;
+  border-bottom-right-radius: 16px;
+}  
+div.info img, td.info img {
+  border: none;
+}
+div.info img.right, td.info img.right {
+  margin: 0px 0px 16px 24px;
+}
+div.info img.left, td.info img.left {
+  margin: 0px 16px 16px 0px;
+}
+div.info-text div, td.info-text div  {
+  padding: 48px 24px 24px 24px;
+  width: auto !important;
+}
+div.info p, td.info p {
+  margin-bottom: 12px;
+}
+div.info a, td.info a {
+  color: #A81534;
+  text-decoration: none;
+}
+div.info a:hover, td.info a:hover {
+  text-decoration: underline;
+}
+div.info-text div.breed, td.info-text div.breed {
+  margin: 32px -24px 16px -24px;
+  background-color: #ECEAD1;
+  text-align: center;
+  padding: 4px 0px 0px 0px;
+}
+
+div#show-busy {
+  background-color: #ffffff;
+  border-radius: 16px;
+  width: 64px;
+  height: 64px;
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  margin-left: -40px;
+  margin-top: -40px;
+  opacity: 0.8;
+  z-index: 100001;
+}
+div#show-busy div.busy {
+  width: 16px;
+  height: 16px;
+  border: 1px solid #EED0D6;
+  position: absolute;
+}
+div#busy1 {
+  top: 10px;
+  left: 10px;
+  background-color: #A81534;
+  animation: busy1 3s linear 0s infinite;
+  -webkit-animation: busy1 3s linear 0s infinite;
+}
+div#busy2 {
+  top: 10px;
+  left: 36px;
+  background-color: #B9445D;
+  animation: busy2 3s linear 0s infinite;
+  -webkit-animation: busy2 3s linear 0s infinite;
+}
+div#busy3 {
+  top: 36px;
+  left: 36px;
+  background-color: #CB7385;
+  animation: busy3 3s linear 0s infinite;
+  -webkit-animation: busy3 3s linear 0s infinite;
+}
+div#busy4 {
+  top: 36px;
+  left: 10px;
+  background-color: #DCA1AE;
+  animation: busy4 3s linear 0s infinite;
+  -webkit-animation: busy4 3s linear 0s infinite;
+}
+
+@keyframes busy1
+{
+  0%    { top: 10px; left: 10px; }
+  25%   { top: 10px; left: 36px; }
+  50%   { top: 36px; left: 36px; }
+  75%   { top: 36px; left: 10px; }
+  100%  { top: 10px; left: 10px; }
+}
+@keyframes busy2
+{
+  0%    { top: 10px; left: 36px; }
+  25%   { top: 36px; left: 36px; }
+  50%   { top: 36px; left: 10px; }
+  75%   { top: 10px; left: 10px; }
+  100%  { top: 10px; left: 36px; }
+}
+@keyframes busy3
+{
+  0%    { top: 36px; left: 36px; }
+  25%   { top: 36px; left: 10px; }
+  50%   { top: 10px; left: 10px; }
+  75%   { top: 10px; left: 36px; }
+  100%  { top: 36px; left: 36px; }
+}
+@keyframes busy4
+{
+  0%    { top: 36px; left: 10px; }
+  25%   { top: 10px; left: 10px; }
+  50%   { top: 10px; left: 36px; }
+  75%   { top: 36px; left: 36px; }
+  100%  { top: 36px; left: 10px; }
+}
+
+@-webkit-keyframes busy1
+{
+  0%    { top: 10px; left: 10px; }
+  25%   { top: 10px; left: 36px; }
+  50%   { top: 36px; left: 36px; }
+  75%   { top: 36px; left: 10px; }
+  100%  { top: 10px; left: 10px; }
+}
+@-webkit-keyframes busy2
+{
+  0%    { top: 10px; left: 36px; }
+  25%   { top: 36px; left: 36px; }
+  50%   { top: 36px; left: 10px; }
+  75%   { top: 10px; left: 10px; }
+  100%  { top: 10px; left: 36px; }
+}
+@-webkit-keyframes busy3
+{
+  0%    { top: 36px; left: 36px; }
+  25%   { top: 36px; left: 10px; }
+  50%   { top: 10px; left: 10px; }
+  75%   { top: 10px; left: 36px; }
+  100%  { top: 36px; left: 36px; }
+}
+@-webkit-keyframes busy4
+{
+  0%    { top: 36px; left: 10px; }
+  25%   { top: 10px; left: 10px; }
+  50%   { top: 10px; left: 36px; }
+  75%   { top: 36px; left: 36px; }
+  100%  { top: 36px; left: 10px; }
+}
+
+div.buttonC {
+	transition: background 0.5s ease;
+	-webkit-transition: background 0.5s ease;
+}
+div.buttonC:active {
+	background: #CFAF80;
+}
