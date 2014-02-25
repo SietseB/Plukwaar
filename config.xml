@@ -26,7 +26,6 @@
 	<preference name="android-installLocation" value="internalOnly" />
   <preference name="prerendered-icon" value="true" />
   <preference name="target-device" value="universal" />
-  <preference name="auto-hide-splash-screen" value="false" />
   <preference name="AutoHideSplashScreen" value="false" />
 	<preference name="SplashScreenDelay" value="20000" />
   <preference name="load-url-timeout" value="60000" />
@@ -37,6 +36,9 @@
 	<preference name="errorurl" value="error.html" />
         
 	<feature name="http://api.phonegap.com/1.0/network"/>
+	<feature name="SplashScreen">
+		<param name="ios-package" value="CDVSplashScreen" />
+	</feature>
 
 	<gap:platforms>
 		<gap:platform name="android" />
