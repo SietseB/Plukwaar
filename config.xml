@@ -26,7 +26,9 @@
 	<preference name="android-installLocation" value="internalOnly" />
   <preference name="prerendered-icon" value="true" />
   <preference name="target-device" value="universal" />
-  <preference name="autohide-splashscreen" value="false" />
+  <preference name="auto-hide-splash-screen" value="false" />
+  <preference name="AutoHideSplashScreen" value="false" />
+	<preference name="SplashScreenDelay" value="20000" />
   <preference name="load-url-timeout" value="60000" />
 	<preference name="show-splashscreen-spinner" value="true" />
 	<preference name="show-splash-screen-spinner" value="true" />
