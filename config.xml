@@ -34,12 +34,13 @@
 	<preference name="allow-inline-media-playback" value="false" />
 	<preference name="launch-mode" value="standard" />
 	<preference name="errorurl" value="error.html" />
-        
+  
 	<feature name="http://api.phonegap.com/1.0/network"/>
 	<feature name="SplashScreen">
 		<param name="ios-package" value="CDVSplashScreen" />
 	</feature>
-
+	<gap:plugin name="org.apache.cordova.geolocation" />
+	
 	<gap:platforms>
 		<gap:platform name="android" />
 		<gap:platform name="winphone" />
